@@ -16,6 +16,6 @@ Once logged in, go to the Level 1 page to find out how to beat Level 1.
 
 ## Helpful Reading Material
 
-    https://en.wikipedia.org/wiki/Secure_Shell
-    https://itsfoss.com/ssh-to-port/
-    https://www.wikihow.com/Use-SSH
+https://en.wikipedia.org/wiki/Secure_Shell
+https://itsfoss.com/ssh-to-port/
+https://www.wikihow.com/Use-SSH
