@@ -18,7 +18,7 @@ exit
 
 # On my own computer's terminal
 # Create a file with key I copied from bandit13's home directory on server
-echo "private key details here" >> sshkey2.private
+echo "private key details here" >> sshkey.private
 
 # Make file executable
 chmod 700 sshkey.private
