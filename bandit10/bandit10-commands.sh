@@ -18,7 +18,7 @@ strings data.txt | grep "="
 # ========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 # Alternate command line which shows only the lines which start with multiple "=" characters, then gets rid of blank spaces, and thus isolates the remaining string which is the password itself
-strings data.txt | grep -E "^==+" | tr -d "=" | tr -d "the" | tr -d "password" | tr -d "[:space:]"
+strings data.txt | grep -E "^==+" | sed 's/=//g' | sed 's/\bthe\b//g' | sed 's/\bpassword\b//g' | tr -d "[:blank:]"
 
 # Output:
 # FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
