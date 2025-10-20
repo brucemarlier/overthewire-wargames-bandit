@@ -8,7 +8,7 @@ ls
 cat sshkey.private
 
 # Output:
-# private key details
+# private key details here
 
 exit
 
